@@ -1,0 +1,251 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+span{
+    font-weight:bold;
+    border-bottom:2px solid black;
+}
+
+nav{
+    width:100%;
+   display:flex;
+    border-bottom:4px solid black;
+    
+}
+#logo{
+    width:50%;
+    font-size:28px;
+}
+#nav-button{
+    
+    width:50%;
+    margin-top:10px;
+}
+#ha{
+    font-size:20px;
+    margin-left:50px;
+}
+#hb{
+font-size:20px;
+margin-left:50px;
+}
+#hc{
+    font-size:20px;
+    margin-left:50px;
+}
+#nav-button li {
+    list-style: none;
+    display: inline;
+    padding: 3px;
+}
+#nav-button li:hover{
+    background-color:black;
+    color:white;
+    border-radius:3px;
+   
+}
+
+form li {
+    font-size: 26px;
+}
+
+#map{
+    width: 80%;
+    margin:auto;
+    height: 500px;
+    border:2px solid black;
+    margin-bottom:20px;
+
+}
+#mapname{
+    text-align:center;
+    font-weight:bold;
+   margin-bottom:10px;
+   text-decoration-line:underline;
+}
+#text{
+    width:100%;
+
+    display:flex;
+}
+#img1{
+    width:50%;
+}
+p{
+    margin-top:5px;
+    width:50%;
+   line-height:1.3rem;
+   font-size:1.3rem;
+   
+}
+#img2{
+   width:100%;
+
+}
+#symptoms{
+    margin-top:20px;
+    width:100%;
+    height:300px;
+   
+}
+#symptoms-logo{
+    text-align:center;
+   
+}
+#symptoms-image{
+    display:flex;
+    width:60%;
+    margin:auto;
+    
+}
+#flex1,#flex2,flex3{
+    flex:1;
+}
+#symptoms div{
+    font-size:20px;
+
+}
+#fever{
+    margin-left:50px;
+}
+#cough,#tiredness{
+    margin-top:30px;
+    margin-left:10px;
+}
+
+#precations{
+    margin-top:5px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 200px;
+   
+}
+#precations{
+    margin-top:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+    #precations ul li {
+        font-weight:bold;
+        font-size:1.3rem;
+    }
+
+    #treatments{
+        width:80%;
+        margin:auto;
+
+    }
+    #treatments-text{
+        line-height:1.7rem;
+        font-size:1.3rem;
+        
+    }
+#country{
+  width:80%;
+  text-align:center;
+  margin:20px auto 20px 50px;
+  color:black;
+ font-size:1.2rem;
+ font-weight:bold;
+  height:40px;
+  text-transform:capitalize;
+}
+
+
+#search{
+font-size:18px;   
+width:40%;
+margin-left:115px;
+ line-height:2.1rem;
+margin-bottom:10px;
+font-weight:bold;
+border-radius:4px;
+}
+#clear{
+    font-weight:bold;
+    font-size:18px;
+    line-height:2.1rem;
+    width:40%;
+    margin-bottom:20px;
+    margin-left:115px;
+    border-radius:4px;
+}
+#clear:hover{
+    background-color:black;
+    color:white;
+}
+    #searchbyname{
+        text-align:center;
+    }
+#covid {
+    line-height:2.1rem;
+    border: 2px solid black;
+    width: 50%;
+    font-size: 18px;
+    margin: 20px auto;
+}
+    #covid li{
+        list-style:none;
+        margin-top:3px;
+        text-decoration:none;
+        font-weight:bold;
+    }
+    #globalsearch{
+        text-align:center;
+    }
+    
+    #global-title{
+
+       text-align:center;
+       margin:40px;
+    }
+#global {
+    line-height: 2.1rem;
+    border: 2px solid black;
+    width: 50%;
+    font-size: 18px;
+    margin: 20px auto;
+}
+    #global li{
+        list-style:none;
+        font-weight:bold;
+        margin-top:3px;
+
+    }
+#foot{
+        width:100%;
+        height:70px;
+       background-color:black;
+       display:flex;
+
+    }
+#website{
+    width:50%;
+    margin-top:20px;
+    color:white;
+    display:flex;
+    margin-left:20px;
+}
+#copy{
+    width:20%;
+    font-size:16px;
+   margin-top:30px;
+    color:white;
+}
+#copy  li{
+    list-style:none;
+
+}
+#social{
+    width:30%;
+}
+#social i{
+    font-size:1.7em;
+   margin-top:20px;
+    margin-left:70px;
+    color:white;
+}
+
